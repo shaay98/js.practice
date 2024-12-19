@@ -1,22 +1,18 @@
 "use strict";
 
-
 let temperature = prompt("What is the temperature?");
-temperature = Fahrenheit("temperature");
-alert("temperature = fahrenheit + celsius");
-document.write
+let f = (temperature * 9) / 5 + 32;
 
+alert(`temperature is ${f}`);
 
 let age = prompt("What is your age");
-age = Number;
-if age <= 17 
-alert ("You are under age")
+age = Number(age);
+if (age <= 17) {
+  alert("You are under age");
+} else if (age >= 18 && age < 30) {
+  alert("You are an adult");
+} else if (age >= 31) {
+  alert("You are a senior citizen");
+}
 
-else age >= 18 && 30
-alert ("You are an adult")
-
-else age >= 31 
-alert ("You are a senior citizen")
-
-console.log("Welcome to site")
-
+console.log("Welcome to site");
