@@ -2,8 +2,8 @@
 
 let temperature = prompt("What is the temperature?");
 let f = (temperature * 9) / 5 + 32;
-
 alert(`temperature is ${f}`);
+
 
 let age = prompt("What is your age");
 age = Number(age);
