@@ -34,3 +34,5 @@ if (operation === "-") {
 } else {
   alert("invalid response");
 }
+
+let div = document.getElementById("colors")
